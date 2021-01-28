@@ -27,7 +27,6 @@ spec:
       labels:
         app: httpbin
     spec:
-      serviceAccountName: httpbin
       containers:
       - image: docker.io/kennethreitz/httpbin
         imagePullPolicy: IfNotPresent
